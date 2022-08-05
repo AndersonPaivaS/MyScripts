@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Vamos contar? </title>
+</head>
+<body>
+
+    <header> <h1 id="title"> Vamos contar! </h1> </header>
+
+    <section id="content">
+
+        <div id="escrever">
+
+            <p>início: <input type="number" name="inicio" id="inicio"> </p>
+            <p>fim: <input type="number" name="fim" id="fim"></p>
+            <p>passo: <input type="number" name="passo" id="passo"></p>
+            <div>
+                <p><input id="botao" type="button" value="Contar" onclick="contar()"></p>
+            </div>
+            
+        </div>
+
+        <div id="res">
+            Preparando a contagem...
+        </div>
+
+    </section>
+
+    <section>
+        <div id="lembretes">
+            <h2 id="inst"> Instruções </h2>
+            <p>início: local destinado para inserir o primeiro número da sequência que será criada. <br> <br> fim: último número que fará parte da sequência. <br> <br> passo: é o valor que a sua sequência vai adotar para ir para o próximo número.  </p>
+        </div>
+    </section>
+
+    <section>
+        <button class="voltar"> <a style="text-decoration: none; color: rgba(69, 0, 134, 0.658);" href="../scripts/index.html"> Voltar </a> </button>
+    </section>
+
+    <footer> <p>&copy; github.com/AndersonPaivaS </p> </footer>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

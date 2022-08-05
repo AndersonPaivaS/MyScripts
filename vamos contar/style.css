@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(43, 0, 83);
+    color: white;
+}
+
+#title {
+    padding: 20px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#content {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    max-width: 1000px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+    background: rgba(69, 0, 134, 0.658);
+}
+
+#escrever {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+p {
+    padding: 20px;
+}
+
+
+#res {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 20px;
+}
+
+#botao {
+    padding: 10px;
+
+    background:  rgba(0, 0, 0, 0.329);
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    transition: 0.3s;
+}
+
+#botao:hover {
+    opacity: 0.7;
+}
+
+#lembretes {
+    margin-top: 30px;
+    opacity: 0.7;
+    padding: 10px;
+
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    max-width: 500px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+    background: rgba(69, 0, 134, 0.658);
+}
+
+#inst {
+    display: flex;
+    justify-content: center;
+}
+
+.voltar {
+    margin-top: 10px;
+    padding: 10px;
+    opacity: 1;
+
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    transition: 0.3s;
+}
+
+footer {
+    padding: 20px;
+}
