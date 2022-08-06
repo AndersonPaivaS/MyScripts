@@ -29,6 +29,19 @@ section {
     background: #084b50;
 }
 
+@media(max-width: 800px) {
+    section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
+    height: 80vh;
+    background: #084b50;
+    }
+}
+
 #tab, #cont {
     align-items: center;
     display: flex;
